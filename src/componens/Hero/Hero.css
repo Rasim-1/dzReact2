@@ -1,0 +1,32 @@
+.hero__title{
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 60px;
+
+}
+.cards{
+  display: flex;
+  justify-content: space-around;  
+  @media (max-width: 900px) {
+   
+  flex-wrap: wrap;
+  gap: 20px;
+  
+  }
+}
+.card{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+text-align: center;
+gap: 15px;
+
+  
+h4{
+  font-size: 25px;
+
+}
+p{
+  font-size: 15px;
+}
+}

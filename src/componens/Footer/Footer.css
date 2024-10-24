@@ -1,0 +1,54 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+    margin: 0 auto;
+    
+    input{
+        padding: 15px;
+
+    }
+}
+
+.footer__title{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.back{
+    
+
+    background-color: #ecf3f8;
+}
+
+
+
+
+
+.btn-1 {
+    max-width: 350px;
+    background-color: gold;
+    padding: 12px;
+    border: none;
+    font-weight: 600;
+    transition: 0.3s;
+    cursor: pointer;
+margin-bottom: 60px;
+
+    &:hover {
+        background-color: rgb(179, 153, 5);
+
+    }
+
+}
+
+.box{
+    background-color: #164d7a;
+text-align: center;
+
+    p{
+        padding: 50px;
+        color: white;
+    }
+}
